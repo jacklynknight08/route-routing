@@ -1,5 +1,7 @@
 # Route Routing Exercise
 
+### This exercise also includes Route Listing Exercise
+
 1. Open Chrome Browser
 2. Open terminal
 3. In lib folder, run "npm install"
