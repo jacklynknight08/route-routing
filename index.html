@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="RouteRoutingApp">
+<head>
+	<title>Route Routing</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Popular Highways</h1>
+
+	<a ng-href="#!/">Home</a>
+	<a ng-href="#!/route66">Route 66</a>
+	<a ng-href="#!/california-route1">California Route 1</a>
+
+	<div ng-view></div>
+
+<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<script src="app/app.js"></script>
+<script src="app/controllers/Highway1Ctrl.js"></script>
+<script src="app/controllers/Highway2Ctrl.js"></script>
+</body>
+</html>
